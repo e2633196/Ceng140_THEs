@@ -1,0 +1,25 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     socialmedia
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _printUser, symObjAddr: 0x0, symBinAddr: 0x100002BF8, symSize: 0x78 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _db, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x1E9, offset: 0x1E9, size: 0x8, addend: 0x0, symName: _userCache, symBinAddr: 0x10001D7D8, symSize: 0x0 }
+  - { offsetInCU: 0x242, offset: 0x242, size: 0x8, addend: 0x0, symName: _postCache, symBinAddr: 0x10001D7C0, symSize: 0x0 }
+  - { offsetInCU: 0x24B, offset: 0x24B, size: 0x8, addend: 0x0, symName: _printUser, symObjAddr: 0x0, symBinAddr: 0x100002BF8, symSize: 0x78 }
+  - { offsetInCU: 0x26F, offset: 0x26F, size: 0x8, addend: 0x0, symName: _printPost, symObjAddr: 0x78, symBinAddr: 0x100002C70, symSize: 0x5C }
+  - { offsetInCU: 0x293, offset: 0x293, size: 0x8, addend: 0x0, symName: _printUserCache, symObjAddr: 0xD4, symBinAddr: 0x100002CCC, symSize: 0xA4 }
+  - { offsetInCU: 0x2C5, offset: 0x2C5, size: 0x8, addend: 0x0, symName: _printPostCache, symObjAddr: 0x178, symBinAddr: 0x100002D70, symSize: 0x88 }
+  - { offsetInCU: 0x2F7, offset: 0x2F7, size: 0x8, addend: 0x0, symName: _createNode, symObjAddr: 0x200, symBinAddr: 0x100002DF8, symSize: 0x58 }
+  - { offsetInCU: 0x32D, offset: 0x32D, size: 0x8, addend: 0x0, symName: _appendToCache, symObjAddr: 0x258, symBinAddr: 0x100002E50, symSize: 0xB8 }
+  - { offsetInCU: 0x37B, offset: 0x37B, size: 0x8, addend: 0x0, symName: _moveToFront, symObjAddr: 0x310, symBinAddr: 0x100002F08, symSize: 0x128 }
+  - { offsetInCU: 0x3AD, offset: 0x3AD, size: 0x8, addend: 0x0, symName: _removeLast, symObjAddr: 0x438, symBinAddr: 0x100003030, symSize: 0x98 }
+  - { offsetInCU: 0x3DF, offset: 0x3DF, size: 0x8, addend: 0x0, symName: _fetchUser, symObjAddr: 0x4D0, symBinAddr: 0x1000030C8, symSize: 0x1EC }
+  - { offsetInCU: 0x431, offset: 0x431, size: 0x8, addend: 0x0, symName: _fetchPost, symObjAddr: 0x6BC, symBinAddr: 0x1000032B4, symSize: 0x1DC }
+  - { offsetInCU: 0x485, offset: 0x485, size: 0x8, addend: 0x0, symName: _followUser, symObjAddr: 0x898, symBinAddr: 0x100003490, symSize: 0xD0 }
+  - { offsetInCU: 0x4F6, offset: 0x4F6, size: 0x8, addend: 0x0, symName: _likePost, symObjAddr: 0x968, symBinAddr: 0x100003560, symSize: 0x58 }
+  - { offsetInCU: 0x549, offset: 0x549, size: 0x8, addend: 0x0, symName: _printFollowersInReverse, symObjAddr: 0x9C0, symBinAddr: 0x1000035B8, symSize: 0x14C }
+  - { offsetInCU: 0x59C, offset: 0x59C, size: 0x8, addend: 0x0, symName: _freeLinkedList, symObjAddr: 0xB0C, symBinAddr: 0x100003704, symSize: 0x5C }
+  - { offsetInCU: 0x26, offset: 0x610, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003760, symSize: 0x67C }
+  - { offsetInCU: 0x4D, offset: 0x637, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003760, symSize: 0x67C }
+...
